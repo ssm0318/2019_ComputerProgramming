@@ -11,7 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="" />
+    <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +30,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1VA6aQDnhA7GCs7xwVNxKab39Jd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
@@ -69,7 +78,8 @@
       <updated>1576683614496</updated>
       <workItem from="1576683615984" duration="22197000" />
       <workItem from="1576772045888" duration="51000" />
-      <workItem from="1576813682599" duration="312000" />
+      <workItem from="1576813682599" duration="645000" />
+      <workItem from="1576814428858" duration="467000" />
     </task>
     <servers />
   </component>
@@ -101,9 +111,13 @@
     </state>
     <state width="1878" height="289" key="GridCell.Tab.0.right/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464133" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576719520641" />
-    <state x="-1267" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1576813686356">
+    <state x="662" y="125" key="SettingsEditor" timestamp="1576814485482">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="662" y="125" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576814485482" />
+    <state x="-1267" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1576814431045">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1267" y="384" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576813686356" />
+    <state x="-1267" y="384" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576814431045" />
   </component>
 </project>
