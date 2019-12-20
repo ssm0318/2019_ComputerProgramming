@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/main.cpp
+iostream
+-
+string
+-
+utility
+-
+set
+-
+vector
+-
+tuple
+-
+

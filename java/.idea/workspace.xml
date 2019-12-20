@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0e6ebb7-964b-405d-b857-54977ad51469" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Bidding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Bidding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/Server.java" afterDir="false" />
-    </list>
+    <list default="true" id="240c2e2c-d8e2-4668-b713-2e59eea1bdac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,18 +10,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1VENYV0fI7ygEPHSm3MKzGLVDmw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectId" id="1VFh21ciloeNQuIDLSPxI9bZC2k" />
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,23 +33,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0e6ebb7-964b-405d-b857-54977ad51469" name="Default Changelist" comment="" />
-      <created>1576814342240</created>
+      <changelist id="240c2e2c-d8e2-4668-b713-2e59eea1bdac" name="Default Changelist" comment="" />
+      <created>1576854539732</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576814342240</updated>
-      <workItem from="1576814345559" duration="9000" />
-      <workItem from="1576814431455" duration="551000" />
+      <updated>1576854539732</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="469" y="157" key="SettingsEditor" timestamp="1576814628566">
-      <screen x="0" y="23" width="1920" height="990" />
-    </state>
-    <state x="469" y="157" key="SettingsEditor/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576814628566" />
   </component>
 </project>
