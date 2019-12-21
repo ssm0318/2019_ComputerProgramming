@@ -177,6 +177,33 @@ number_match.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/number_match.cpp.s
 .PHONY : number_match.cpp.s
 
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.s
+.PHONY : player.cpp.s
+
 player_battle.o: player_battle.cpp.o
 
 .PHONY : player_battle.o
@@ -246,6 +273,9 @@ help:
 	@echo "... number_match.o"
 	@echo "... number_match.i"
 	@echo "... number_match.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
 	@echo "... player_battle.o"
 	@echo "... player_battle.i"
 	@echo "... player_battle.s"

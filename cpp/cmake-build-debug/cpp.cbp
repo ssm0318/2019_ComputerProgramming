@@ -92,6 +92,12 @@
 		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp">
 			<Option target="cpp"/>
 		</Unit>

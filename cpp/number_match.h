@@ -5,6 +5,7 @@
 #include <iterator>
 #include <algorithm>
 #include <numeric>
+#include <array>
 #include "env.h"
 
 class NumberMatch {
@@ -13,7 +14,7 @@ private:
     static const int MATRIX_SIZE = 2;
 
     pair<int, int> curr_num;
-    pair<int, int> decision_matrix[MATRIX_SIZE][MATRIX_SIZE];
+    array<array<pair<int, int>, MATRIX_SIZE>, MATRIX_SIZE> decision_matrix;
 
 public:
     NumberMatch(int A, int B) : curr_num(make_pair(A, B)) {}

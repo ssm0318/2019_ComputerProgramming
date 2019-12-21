@@ -4,6 +4,7 @@
 CMakeFiles/cpp.dir/main.cpp.o: ../env.h
 CMakeFiles/cpp.dir/main.cpp.o: ../main.cpp
 CMakeFiles/cpp.dir/main.cpp.o: ../number_match.h
+CMakeFiles/cpp.dir/main.cpp.o: ../player.h
 CMakeFiles/cpp.dir/main.cpp.o: ../player_battle.h
 CMakeFiles/cpp.dir/main.cpp.o: ../tournament.h
 
@@ -12,13 +13,20 @@ CMakeFiles/cpp.dir/number_match.cpp.o: ../number_match.cpp
 CMakeFiles/cpp.dir/number_match.cpp.o: ../number_match.h
 CMakeFiles/cpp.dir/number_match.cpp.o: ../utilities.h
 
+CMakeFiles/cpp.dir/player.cpp.o: ../env.h
+CMakeFiles/cpp.dir/player.cpp.o: ../number_match.h
+CMakeFiles/cpp.dir/player.cpp.o: ../player.cpp
+CMakeFiles/cpp.dir/player.cpp.o: ../player.h
+
 CMakeFiles/cpp.dir/player_battle.cpp.o: ../env.h
 CMakeFiles/cpp.dir/player_battle.cpp.o: ../number_match.h
+CMakeFiles/cpp.dir/player_battle.cpp.o: ../player.h
 CMakeFiles/cpp.dir/player_battle.cpp.o: ../player_battle.cpp
 CMakeFiles/cpp.dir/player_battle.cpp.o: ../player_battle.h
 
 CMakeFiles/cpp.dir/tournament.cpp.o: ../env.h
 CMakeFiles/cpp.dir/tournament.cpp.o: ../number_match.h
+CMakeFiles/cpp.dir/tournament.cpp.o: ../player.h
 CMakeFiles/cpp.dir/tournament.cpp.o: ../player_battle.h
 CMakeFiles/cpp.dir/tournament.cpp.o: ../tournament.cpp
 CMakeFiles/cpp.dir/tournament.cpp.o: ../tournament.h

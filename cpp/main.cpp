@@ -2,10 +2,6 @@
 
 #include "tournament.h"
 
-const string MAXIMIZE_GAIN = "Maximize-Gain";
-const string MINIMIZE_LOSS = "Minimize-Loss";
-const string MINIMIZE_REGRET = "Minimize-Regret";
-
 pair<int, int> number_fight(int a, int b) {
     return NumberMatch::virtual_fight(a, b);
 }
@@ -17,8 +13,7 @@ pair<int, int> number_vs_number(int a, int b) {
 pair<multiset<int>, multiset<int>> player_battle(
         string type_a, multiset<int> a, string type_b, multiset<int> b
 ) {
-    // TODO 1-3
-    return pair<multiset<int>, multiset<int>>();
+    return PlayerBattle::one_battle(type_a, a, type_b, b);
 }
 
 pair<multiset<int>, multiset<int>> player_vs_player(

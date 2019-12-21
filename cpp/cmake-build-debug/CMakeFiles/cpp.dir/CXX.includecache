@@ -20,12 +20,6 @@ vector
 tuple
 -
 
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp
-number_match.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
-utilities.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/utilities.h
-
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
 iterator
 -
@@ -33,10 +27,18 @@ algorithm
 -
 numeric
 -
+array
+-
 env.h
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/env.h
 
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/utilities.h
-env.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/env.h
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp
+deque
+-
+player.h
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h
+
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h
+number_match.h
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
 
