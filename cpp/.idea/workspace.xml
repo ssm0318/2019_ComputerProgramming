@@ -13,8 +13,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/number_match.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/number_match.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player_battle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player_battle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player_battle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player_battle.h" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/1-3/1.in" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/1-3/1.in" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +49,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcases/1-3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
@@ -78,7 +90,7 @@
       <workItem from="1576814428858" duration="657000" />
       <workItem from="1576838970603" duration="631000" />
       <workItem from="1576842130819" duration="1425000" />
-      <workItem from="1576926834876" duration="20074000" />
+      <workItem from="1576926834876" duration="22316000" />
     </task>
     <servers />
   </component>
@@ -90,32 +102,32 @@
       <screen x="-261" y="-1057" width="1920" height="1057" />
     </state>
     <state x="299" y="-863" key="#Inspections/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576694337199" />
-    <state x="725" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576946523421">
+    <state x="725" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576953356038">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="725" y="328" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576946523421" />
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1576949423709">
+    <state x="725" y="328" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576953356038" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1576953511071">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576949423709" />
+    <state width="1878" height="268" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576953511071" />
     <state width="1878" height="289" key="GridCell.Tab.0.bottom/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464133" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576719520641" />
-    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1576949423708">
+    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1576953511070">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576949423708" />
+    <state width="1878" height="268" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576953511070" />
     <state width="1878" height="289" key="GridCell.Tab.0.center/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464132" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1576719520640" />
-    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1576949423707">
+    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1576953511070">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576949423707" />
+    <state width="1878" height="268" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576953511070" />
     <state width="1878" height="289" key="GridCell.Tab.0.left/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464132" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1576719520640" />
-    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1576949423709">
+    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1576953511071">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576949423709" />
+    <state width="1878" height="268" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576953511071" />
     <state width="1878" height="289" key="GridCell.Tab.0.right/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464133" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576719520641" />
     <state x="662" y="125" key="SettingsEditor" timestamp="1576814485482">
@@ -126,10 +138,10 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1267" y="384" key="com.intellij.ide.util.TipDialog/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576840465385" />
-    <state x="640" y="275" width="639" height="486" key="find.popup" timestamp="1576947681557">
+    <state x="640" y="275" width="639" height="486" key="find.popup" timestamp="1576950775197">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="640" y="275" width="639" height="486" key="find.popup/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576947681557" />
+    <state x="640" y="275" width="639" height="486" key="find.popup/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1576950775197" />
     <state x="722" y="156" key="refactoring.ChangeSignatureDialog" timestamp="1576937869976">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
