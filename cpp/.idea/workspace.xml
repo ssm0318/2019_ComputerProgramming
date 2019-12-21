@@ -11,7 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="" />
+    <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle.h" beforeDir="false" afterPath="$PROJECT_DIR$/battle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/number.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number.h" beforeDir="false" afterPath="$PROJECT_DIR$/number.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -7,7 +7,7 @@ const string MINIMIZE_LOSS = "Minimize-Loss";
 const string MINIMIZE_REGRET = "Minimize-Regret";
 
 pair<int, int> number_fight(int a, int b) {
-    return Battle::fight_result(a, b);
+    return Number::fight_result(a, b);
 }
 
 pair<int, int> number_vs_number(int a, int b) {
