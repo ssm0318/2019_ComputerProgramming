@@ -1,95 +1,13 @@
-#include <iostream>
-#include <string>
-#include <utility>
-#include <set>
-#include <vector>
-#include <tuple>
+// MacOS
 
-using namespace std;
-
-/* =======START OF PRIME-RELATED HELPERS======= */
-/*
- * The code snippet below AS A WHOLE does the primality
- * test and integer factorization. Feel free to move the
- * code to somewhere more appropriate to get your codes
- * more structured.
- *
- * You don't have to understand the implementation of it.
- * But if you're curious, refer to the sieve of Eratosthenes
- *
- * If you want to just use it, use the following 2 functions.
- *
- * 1) bool is_prime(int num):
- *     * `num` should satisfy 1 <= num <= 999999
- *     - returns true if `num` is a prime number
- *     - returns false otherwise (1 is not a prime number)
- *
- * 2) multiset<int> factorize(int num):
- *     * `num` should satisfy 1 <= num <= 999999
- *     - returns the result of factorization of `num`
- *         ex ) num = 24 --> result = { 2, 2, 2, 3 }
- *     - if `num` is 1, it returns { 1 }
- */
-
-const int PRIME_TEST_LIMIT = 999999;
-int sieve_of_eratosthenes[PRIME_TEST_LIMIT + 1];
-bool sieve_calculated = false;
-
-void make_sieve() {
-    sieve_of_eratosthenes[0] = -1;
-    sieve_of_eratosthenes[1] = -1;
-    for(int i=2; i<=PRIME_TEST_LIMIT; i++) {
-        sieve_of_eratosthenes[i] = i;
-    }
-    for(int i=2; i*i<=PRIME_TEST_LIMIT; i++) {
-        if(sieve_of_eratosthenes[i] == i) {
-            for(int j=i*i; j<=PRIME_TEST_LIMIT; j+=i) {
-                sieve_of_eratosthenes[j] = i;
-            }
-        }
-    }
-    sieve_calculated = true;
-}
-
-bool is_prime(int num) {
-    if (!sieve_calculated) {
-        make_sieve();
-    }
-    return sieve_of_eratosthenes[num] == num;
-}
-
-multiset<int> factorize(int num) {
-    if (!sieve_calculated) {
-        make_sieve();
-    }
-    multiset<int> result;
-    while(num > 1) {
-        result.insert(sieve_of_eratosthenes[num]);
-        num /= sieve_of_eratosthenes[num];
-    }
-    if(result.empty()) {
-        result.insert(1);
-    }
-    return result;
-}
-
-/* =======END OF PRIME-RELATED HELPERS======= */
-
-/* =======START OF STRING LITERALS======= */
-/* Use this code snippet if you want */
+#include "tournament.h"
 
 const string MAXIMIZE_GAIN = "Maximize-Gain";
 const string MINIMIZE_LOSS = "Minimize-Loss";
 const string MINIMIZE_REGRET = "Minimize-Regret";
 
-/* =======END OF STRING LITERALS======= */
-
-
-/* =======START OF TODOs======= */
-
 pair<int, int> number_fight(int a, int b) {
-    // TODO 1-1
-    return pair<int, int>();
+    return Battle::fight_result(a, b);
 }
 
 pair<int, int> number_vs_number(int a, int b) {
@@ -98,14 +16,14 @@ pair<int, int> number_vs_number(int a, int b) {
 }
 
 pair<multiset<int>, multiset<int>> player_battle(
-    string type_a, multiset<int> a, string type_b, multiset<int> b
+        string type_a, multiset<int> a, string type_b, multiset<int> b
 ) {
     // TODO 1-3
     return pair<multiset<int>, multiset<int>>();
 }
 
 pair<multiset<int>, multiset<int>> player_vs_player(
-    string type_a, multiset<int> a, string type_b, multiset<int> b
+        string type_a, multiset<int> a, string type_b, multiset<int> b
 ) {
     // TODO 1-4
     return pair<multiset<int>, multiset<int>>();
@@ -161,11 +79,11 @@ int main() {
         multiset<int> a_, b_;
         if (question_number == 3) {
             tie(a_, b_) = player_battle(
-                a.first, a.second, b.first, b.second
+                    a.first, a.second, b.first, b.second
             );
         } else {
             tie(a_, b_) = player_vs_player(
-                a.first, a.second, b.first, b.second
+                    a.first, a.second, b.first, b.second
             );
         }
         print_multiset(a_);

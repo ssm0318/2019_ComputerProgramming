@@ -123,6 +123,33 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+battle.o: battle.cpp.o
+
+.PHONY : battle.o
+
+# target to build an object file
+battle.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.o
+.PHONY : battle.cpp.o
+
+battle.i: battle.cpp.i
+
+.PHONY : battle.i
+
+# target to preprocess a source file
+battle.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.i
+.PHONY : battle.cpp.i
+
+battle.s: battle.cpp.s
+
+.PHONY : battle.s
+
+# target to generate assembly for a file
+battle.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.s
+.PHONY : battle.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+player.o: player.cpp.o
+
+.PHONY : player.o
+
+# target to build an object file
+player.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.o
+.PHONY : player.cpp.o
+
+player.i: player.cpp.i
+
+.PHONY : player.i
+
+# target to preprocess a source file
+player.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.i
+.PHONY : player.cpp.i
+
+player.s: player.cpp.s
+
+.PHONY : player.s
+
+# target to generate assembly for a file
+player.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.s
+.PHONY : player.cpp.s
+
+tournament.o: tournament.cpp.o
+
+.PHONY : tournament.o
+
+# target to build an object file
+tournament.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/tournament.cpp.o
+.PHONY : tournament.cpp.o
+
+tournament.i: tournament.cpp.i
+
+.PHONY : tournament.i
+
+# target to preprocess a source file
+tournament.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/tournament.cpp.i
+.PHONY : tournament.cpp.i
+
+tournament.s: tournament.cpp.s
+
+.PHONY : tournament.s
+
+# target to generate assembly for a file
+tournament.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/tournament.cpp.s
+.PHONY : tournament.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
+	@echo "... battle.o"
+	@echo "... battle.i"
+	@echo "... battle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... player.o"
+	@echo "... player.i"
+	@echo "... player.s"
+	@echo "... tournament.o"
+	@echo "... tournament.i"
+	@echo "... tournament.s"
 .PHONY : help
 
 
