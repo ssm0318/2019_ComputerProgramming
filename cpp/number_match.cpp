@@ -4,7 +4,7 @@
 // 1-1
 pair<int, int> NumberMatch::virtual_fight(int A, int B) {
     set<int> FG;
-    multiset<int> FA = factorize(A), FB = factorize(B);
+    auto FA = factorize(A), FB = factorize(B);
 
     set_intersection(FA.begin(), FA.end(), FB.begin(), FB.end(), inserter(FG, FG.begin()));
     int G = FG.empty() ? 1 : accumulate(FG.begin(), FG.end(), 1, multiplies<>());
@@ -42,12 +42,11 @@ pair<int, int> NumberMatch::res_choice(int choice_A, int choice_B) {
 
 pair<int, int> NumberMatch::attack(bool A_is_attacking) {
     // if B is the attacker, swap the elements of the number pair
-    pair<int, int> before_attack = A_is_attacking ? curr_num : make_pair(curr_num.second, curr_num.first);
-
-    pair<int, int> if_fight = virtual_fight(before_attack.first, before_attack.second);
+    auto before_attack = A_is_attacking ? curr_num : make_pair(curr_num.second, curr_num.first);
+    auto if_fight = virtual_fight(before_attack.first, before_attack.second);
     int D = before_attack.second - if_fight.second; // damage D
 
-    pair<int, int> after_attack = factorize(before_attack.second).count(7) ?
+    auto after_attack = factorize(before_attack.second).count(7) ?
             process_damage(true, before_attack, D) : process_damage(false, before_attack, D);
 
     return A_is_attacking ? after_attack : make_pair(after_attack.second, after_attack.first);
