@@ -5,7 +5,7 @@
 #include <iterator>
 #include <algorithm>
 #include <numeric>
-#include "player.h"
+#include "number.h"
 
 class Battle {
 private:
