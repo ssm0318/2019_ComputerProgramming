@@ -19,13 +19,13 @@ public:
     NumberMatch(int A, int B) : curr_num(make_pair(A, B)) {}
 
     static pair<int, int> virtual_fight(int, int);
+    static pair<int, int> one_match(int, int);
+    void fill_decision_matrix();
     pair<int, int> attack(bool);
     static pair<int, int> process_damage(bool, pair<int, int>, int);
     pair<int, int> res_choice(int, int);
-    void fill_decision_matrix();
     int decision_A();
     int decision_B();
-    static pair<int, int> one_match(int, int);
 };
 
 #endif //CPP_NUMBER_MATCH_H
