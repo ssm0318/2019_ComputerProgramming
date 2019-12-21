@@ -83,46 +83,46 @@ CMakeFiles/cpp.dir/tournament.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/tournament.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/tournament.cpp" -o CMakeFiles/cpp.dir/tournament.cpp.s
 
-CMakeFiles/cpp.dir/battle.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/battle.cpp.o: ../battle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/battle.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/battle.cpp.o -c "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/battle.cpp"
+CMakeFiles/cpp.dir/player_battle.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/player_battle.cpp.o: ../player_battle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/player_battle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/player_battle.cpp.o -c "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp"
 
-CMakeFiles/cpp.dir/battle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/battle.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/battle.cpp" > CMakeFiles/cpp.dir/battle.cpp.i
+CMakeFiles/cpp.dir/player_battle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/player_battle.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp" > CMakeFiles/cpp.dir/player_battle.cpp.i
 
-CMakeFiles/cpp.dir/battle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/battle.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/battle.cpp" -o CMakeFiles/cpp.dir/battle.cpp.s
+CMakeFiles/cpp.dir/player_battle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/player_battle.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp" -o CMakeFiles/cpp.dir/player_battle.cpp.s
 
-CMakeFiles/cpp.dir/player.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/player.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/player.cpp.o -c "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp"
+CMakeFiles/cpp.dir/number_match.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/number_match.cpp.o: ../number_match.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/number_match.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/number_match.cpp.o -c "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp"
 
-CMakeFiles/cpp.dir/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/player.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp" > CMakeFiles/cpp.dir/player.cpp.i
+CMakeFiles/cpp.dir/number_match.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/number_match.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp" > CMakeFiles/cpp.dir/number_match.cpp.i
 
-CMakeFiles/cpp.dir/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/player.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp" -o CMakeFiles/cpp.dir/player.cpp.s
+CMakeFiles/cpp.dir/number_match.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/number_match.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp" -o CMakeFiles/cpp.dir/number_match.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/main.cpp.o" \
 "CMakeFiles/cpp.dir/tournament.cpp.o" \
-"CMakeFiles/cpp.dir/battle.cpp.o" \
-"CMakeFiles/cpp.dir/player.cpp.o"
+"CMakeFiles/cpp.dir/player_battle.cpp.o" \
+"CMakeFiles/cpp.dir/number_match.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
 cpp: CMakeFiles/cpp.dir/main.cpp.o
 cpp: CMakeFiles/cpp.dir/tournament.cpp.o
-cpp: CMakeFiles/cpp.dir/battle.cpp.o
-cpp: CMakeFiles/cpp.dir/player.cpp.o
+cpp: CMakeFiles/cpp.dir/player_battle.cpp.o
+cpp: CMakeFiles/cpp.dir/number_match.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpp"

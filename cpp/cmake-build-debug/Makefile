@@ -123,33 +123,6 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-battle.o: battle.cpp.o
-
-.PHONY : battle.o
-
-# target to build an object file
-battle.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.o
-.PHONY : battle.cpp.o
-
-battle.i: battle.cpp.i
-
-.PHONY : battle.i
-
-# target to preprocess a source file
-battle.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.i
-.PHONY : battle.cpp.i
-
-battle.s: battle.cpp.s
-
-.PHONY : battle.s
-
-# target to generate assembly for a file
-battle.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/battle.cpp.s
-.PHONY : battle.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,32 +150,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-player.o: player.cpp.o
+number_match.o: number_match.cpp.o
 
-.PHONY : player.o
+.PHONY : number_match.o
 
 # target to build an object file
-player.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.o
-.PHONY : player.cpp.o
+number_match.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/number_match.cpp.o
+.PHONY : number_match.cpp.o
 
-player.i: player.cpp.i
+number_match.i: number_match.cpp.i
 
-.PHONY : player.i
+.PHONY : number_match.i
 
 # target to preprocess a source file
-player.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.i
-.PHONY : player.cpp.i
+number_match.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/number_match.cpp.i
+.PHONY : number_match.cpp.i
 
-player.s: player.cpp.s
+number_match.s: number_match.cpp.s
 
-.PHONY : player.s
+.PHONY : number_match.s
 
 # target to generate assembly for a file
-player.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player.cpp.s
-.PHONY : player.cpp.s
+number_match.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/number_match.cpp.s
+.PHONY : number_match.cpp.s
+
+player_battle.o: player_battle.cpp.o
+
+.PHONY : player_battle.o
+
+# target to build an object file
+player_battle.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player_battle.cpp.o
+.PHONY : player_battle.cpp.o
+
+player_battle.i: player_battle.cpp.i
+
+.PHONY : player_battle.i
+
+# target to preprocess a source file
+player_battle.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player_battle.cpp.i
+.PHONY : player_battle.cpp.i
+
+player_battle.s: player_battle.cpp.s
+
+.PHONY : player_battle.s
+
+# target to generate assembly for a file
+player_battle.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/player_battle.cpp.s
+.PHONY : player_battle.cpp.s
 
 tournament.o: tournament.cpp.o
 
@@ -240,15 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... battle.o"
-	@echo "... battle.i"
-	@echo "... battle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... player.o"
-	@echo "... player.i"
-	@echo "... player.s"
+	@echo "... number_match.o"
+	@echo "... number_match.i"
+	@echo "... number_match.s"
+	@echo "... player_battle.o"
+	@echo "... player_battle.i"
+	@echo "... player_battle.s"
 	@echo "... tournament.o"
 	@echo "... tournament.i"
 	@echo "... tournament.s"

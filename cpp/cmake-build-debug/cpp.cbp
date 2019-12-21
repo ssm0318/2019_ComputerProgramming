@@ -80,22 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/battle.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/battle.h">
-			<Option target="cpp"/>
-		</Unit>
 		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/env.h">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/main.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp">
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp">
 			<Option target="cpp"/>
 		</Unit>
-		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h">
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.h">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/testcases/1-1/1.in">

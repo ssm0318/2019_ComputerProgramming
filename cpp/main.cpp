@@ -7,12 +7,11 @@ const string MINIMIZE_LOSS = "Minimize-Loss";
 const string MINIMIZE_REGRET = "Minimize-Regret";
 
 pair<int, int> number_fight(int a, int b) {
-    return Number::fight_result(a, b);
+    return NumberMatch::virtual_fight(a, b);
 }
 
 pair<int, int> number_vs_number(int a, int b) {
-    // TODO 1-2
-    return pair<int, int>();
+    return NumberMatch::one_match(a, b);
 }
 
 pair<multiset<int>, multiset<int>> player_battle(

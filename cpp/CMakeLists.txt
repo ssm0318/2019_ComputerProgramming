@@ -60,4 +60,4 @@ add_executable(cpp
         testcases/1-2/8.out
         testcases/1-2/9.in
         testcases/1-2/9.out
-        main.cpp tournament.cpp battle.cpp number.cpp number.h tournament.h battle.h utilities.h env.h)
+        main.cpp tournament.cpp player_battle.cpp number_match.cpp number_match.h tournament.h player_battle.h utilities.h env.h)

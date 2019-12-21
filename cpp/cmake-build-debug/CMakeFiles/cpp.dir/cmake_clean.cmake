@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/battle.cpp.o"
   "CMakeFiles/cpp.dir/main.cpp.o"
-  "CMakeFiles/cpp.dir/player.cpp.o"
+  "CMakeFiles/cpp.dir/number_match.cpp.o"
+  "CMakeFiles/cpp.dir/player_battle.cpp.o"
   "CMakeFiles/cpp.dir/tournament.cpp.o"
   "cpp"
   "cpp.pdb"
