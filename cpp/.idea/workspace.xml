@@ -13,10 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_match.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/number_match.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_match.h" beforeDir="false" afterPath="$PROJECT_DIR$/number_match.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/player.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player_battle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player_battle.h" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.h" afterDir="false" />
     </list>
@@ -82,7 +78,7 @@
       <workItem from="1576814428858" duration="657000" />
       <workItem from="1576838970603" duration="631000" />
       <workItem from="1576842130819" duration="1425000" />
-      <workItem from="1576926834876" duration="19861000" />
+      <workItem from="1576926834876" duration="20074000" />
     </task>
     <servers />
   </component>

@@ -1,21 +1,21 @@
 #include "player_battle.h"
 
 pair<multiset<int>, multiset<int>> PlayerBattle::one_match(string type_a, multiset<int> &a, string type_b, multiset<int> &b) {
-    PlayerBattle curr_battle(type_a, a, type_b, b);
-    curr_battle.fill_result_matrix();
+    PlayerBattle curr_round(type_a, a, type_b, b);
+    curr_round.fill_result_matrix();
 
-    curr_battle.index_choice_A = curr_battle.A->make_decision(curr_battle.delta_A_matrix);
-    curr_battle.index_choice_B = curr_battle.B->make_decision(curr_battle.delta_B_matrix);
+    curr_round.index_choice_A = curr_round.A->make_decision(curr_round.delta_A_matrix);
+    curr_round.index_choice_B = curr_round.B->make_decision(curr_round.delta_B_matrix);
 
-    int num_A = *next(curr_battle.A->get_numbers().begin(), curr_battle.index_choice_A);
-    int num_B = *next(curr_battle.B->get_numbers().begin(), curr_battle.index_choice_B);
+    int num_A = *next(curr_round.A->get_numbers().begin(), curr_round.index_choice_A);
+    int num_B = *next(curr_round.B->get_numbers().begin(), curr_round.index_choice_B);
 
     auto result = NumberMatch::one_round(num_A, num_B);
 
-    curr_battle.A->update_number(curr_battle.index_choice_A, result.first);
-    curr_battle.B->update_number(curr_battle.index_choice_B, result.second);
+    curr_round.A->update_number(curr_round.index_choice_A, result.first);
+    curr_round.B->update_number(curr_round.index_choice_B, result.second);
 
-    return make_pair(curr_battle.A->get_numbers(), curr_battle.B->get_numbers());
+    return make_pair(curr_round.A->get_numbers(), curr_round.B->get_numbers());
 }
 
 void PlayerBattle::add_player(const string& player_type, multiset<int> &numbers, Player *&player) {

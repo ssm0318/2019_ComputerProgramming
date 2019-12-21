@@ -8,7 +8,7 @@ class PlayerBattle {
 private:
     Player *A;
     Player *B;
-    int N, M, index_choice_A, index_choice_B;
+    int N, M, index_choice_A, index_choice_B, init_sum_A, init_sum_B;
     vector<vector<pair<int, int>>> result_matrix;
     vector<vector<int>> delta_A_matrix;
     vector<vector<int>> delta_B_matrix;
