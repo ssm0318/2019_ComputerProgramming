@@ -1,7 +1,6 @@
 #include "number_match.h"
 #include "utilities.h"
 
-// 1-1
 pair<int, int> NumberMatch::virtual_fight(int A, int B) {
     set<int> FG;
     auto FA = factorize(A), FB = factorize(B);
@@ -12,7 +11,6 @@ pair<int, int> NumberMatch::virtual_fight(int A, int B) {
     return make_pair(A / G, B / G);
 }
 
-// 1-2
 pair<int, int> NumberMatch::one_round(int A, int B) {
     NumberMatch curr_match(A, B);
     curr_match.fill_decision_matrix();
@@ -33,11 +31,7 @@ pair<int, int> NumberMatch::res_choice(int choice_A, int choice_B) {
         return virtual_fight(curr_num.first, curr_num.second);
     } else if (choice_A != FIGHT && choice_B != FIGHT) {
         return curr_num;
-    } else if (choice_A == FIGHT && choice_B != FIGHT) {
-        return attack(true);
-    } else if (choice_A != FIGHT && choice_B == FIGHT) {
-        return attack(false);
-    }
+    } else return attack(choice_A == FIGHT);
 }
 
 pair<int, int> NumberMatch::attack(bool A_is_attacking) {
@@ -62,6 +56,7 @@ pair<int, int> NumberMatch::process_damage(bool has_seven, pair<int, int> number
     } else {
         B = B - D < 1 ? 1 : B - D;
     }
+
     return make_pair(A, B);
 }
 

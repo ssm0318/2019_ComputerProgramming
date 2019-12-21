@@ -2,6 +2,7 @@
 #ifndef CPP_PLAYER_H
 #define CPP_PLAYER_H
 
+#include <deque>
 #include "number_match.h"
 
 const string MAXIMIZE_GAIN = "Maximize-Gain";

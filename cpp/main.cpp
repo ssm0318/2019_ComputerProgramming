@@ -23,13 +23,11 @@ pair<multiset<int>, multiset<int>> player_vs_player(
 }
 
 int tournament(vector<pair<string, multiset<int>>> players) {
-    // TODO 1-5
-    return -1;
+    return Tournament::proceed_tournament(players);
 }
 
 int steady_winner(vector<pair<string, multiset<int>>> players) {
-    // TODO 1-6
-    return -1;
+    return Tournament::find_steady_winner(players);
 }
 
 /* =======END OF TODOs======= */

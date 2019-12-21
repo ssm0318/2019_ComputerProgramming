@@ -40,7 +40,7 @@ void PlayerBattle::fill_result_matrix() {
     }
 }
 
-int calculate_sum(multiset<int> &numbers) {
+int PlayerBattle::calculate_sum(multiset<int> &numbers) {
     return accumulate(numbers.begin(), numbers.end(), 0);
 }
 
@@ -48,7 +48,7 @@ pair<multiset<int>, multiset<int>> PlayerBattle::full_battle(string type_a, mult
     int init_sum_A = calculate_sum(a), init_sum_B = calculate_sum(b), change_A = 1, change_B = 1, updated_sum_A, updated_sum_B;
     pair<multiset<int>, multiset<int>> result;
     while (change_A || change_B) {
-        result = PlayerBattle::one_match(type_a, a, type_b, b);
+        result = one_match(type_a, a, type_b, b);
         updated_sum_A = calculate_sum(result.first);
         updated_sum_B = calculate_sum(result.second);
         change_A = updated_sum_A - init_sum_A;

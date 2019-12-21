@@ -20,16 +20,6 @@ vector
 tuple
 -
 
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/main.cpp
-tournament.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/tournament.h
-
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.cpp
-number_match.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
-utilities.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/utilities.h
-
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
 iterator
 -
@@ -42,19 +32,11 @@ array
 env.h
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/env.h
 
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.cpp
+/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h
 deque
 -
-player.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h
-
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player.h
 number_match.h
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/number_match.h
-
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.cpp
-player_battle.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.h
 
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.h
 player.h
@@ -67,8 +49,4 @@ tournament.h
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/tournament.h
 player_battle.h
 /Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/player_battle.h
-
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/utilities.h
-env.h
-/Users/JaeWonKim/Dropbox/6-2/computer_programming/LAB/final exam/Exam/cpp/env.h
 

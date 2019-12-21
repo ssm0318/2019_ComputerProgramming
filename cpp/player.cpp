@@ -1,4 +1,3 @@
-#include <deque>
 #include "player.h"
 
 string GainMaximizer::type = MAXIMIZE_GAIN;
@@ -33,6 +32,7 @@ void RegretMinimizer::update_number(int index, int num) {
 
 int GainMaximizer::make_decision(vector<vector<int>> &delta_matrix) {
     vector<int> max;
+
     for (auto row = delta_matrix.begin(); row != delta_matrix.end(); ++row) {
         max.push_back(*max_element(row->begin(), row->end()));
     }
@@ -42,6 +42,7 @@ int GainMaximizer::make_decision(vector<vector<int>> &delta_matrix) {
 
 int LossMinimizer::make_decision(vector<vector<int>> &delta_matrix) {
     vector<int> min;
+
     for (auto row = delta_matrix.begin(); row != delta_matrix.end(); ++row) {
         min.push_back(*min_element(row->begin(), row->end()));
     }
@@ -51,11 +52,13 @@ int LossMinimizer::make_decision(vector<vector<int>> &delta_matrix) {
 
 deque<int> convert_matrix(vector<vector<int>> &delta_matrix) {
     deque<int> delta_queue;
+
     for (auto row = delta_matrix.begin(); row != delta_matrix.end(); row++) {
         for (auto col = row->begin(); col != row->end(); col++) {
             delta_queue.push_back(*col);
         }
     }
+
     return delta_queue;
 }
 
