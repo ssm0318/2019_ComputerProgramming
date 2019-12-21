@@ -7,20 +7,19 @@ pair<int, int> number_fight(int a, int b) {
 }
 
 pair<int, int> number_vs_number(int a, int b) {
-    return NumberMatch::one_match(a, b);
+    return NumberMatch::one_round(a, b);
 }
 
 pair<multiset<int>, multiset<int>> player_battle(
         string type_a, multiset<int> a, string type_b, multiset<int> b
 ) {
-    return PlayerBattle::one_battle(type_a, a, type_b, b);
+    return PlayerBattle::one_match(type_a, a, type_b, b);
 }
 
 pair<multiset<int>, multiset<int>> player_vs_player(
         string type_a, multiset<int> a, string type_b, multiset<int> b
 ) {
-    // TODO 1-4
-    return pair<multiset<int>, multiset<int>>();
+    return PlayerBattle::full_battle(type_a, a, type_b, b);
 }
 
 int tournament(vector<pair<string, multiset<int>>> players) {

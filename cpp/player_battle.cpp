@@ -1,6 +1,6 @@
 #include "player_battle.h"
 
-pair<multiset<int>, multiset<int>> PlayerBattle::one_battle(string type_a, multiset<int> &a, string type_b, multiset<int> &b) {
+pair<multiset<int>, multiset<int>> PlayerBattle::one_match(string type_a, multiset<int> &a, string type_b, multiset<int> &b) {
     PlayerBattle curr_battle(type_a, a, type_b, b);
     curr_battle.fill_result_matrix();
 
@@ -10,8 +10,8 @@ pair<multiset<int>, multiset<int>> PlayerBattle::one_battle(string type_a, multi
     int num_A = *next(curr_battle.A->get_numbers().begin(), curr_battle.index_choice_A);
     int num_B = *next(curr_battle.B->get_numbers().begin(), curr_battle.index_choice_B);
 
-    auto result = NumberMatch::one_match(num_A, num_B);
-    
+    auto result = NumberMatch::one_round(num_A, num_B);
+
     curr_battle.A->update_number(curr_battle.index_choice_A, result.first);
     curr_battle.B->update_number(curr_battle.index_choice_B, result.second);
 
@@ -33,14 +33,26 @@ void PlayerBattle::fill_result_matrix() {
     for (int i = 0; i < N; ++i, ++itrA) {
         auto itrB = B->get_numbers().begin();
         for (int j = 0; j < M; ++j, ++itrB) {
-            result_matrix[i][j] = NumberMatch::one_match(*itrA, *itrB);
+            result_matrix[i][j] = NumberMatch::one_round(*itrA, *itrB);
             delta_A_matrix[i][j] = result_matrix[i][j].first - *itrA;
             delta_B_matrix[j][i] = result_matrix[i][j].second - *itrB;
         }
     }
-//    print_matrices();
 }
 
+pair<multiset<int>, multiset<int>> PlayerBattle::full_battle(string type_a, multiset<int> &a, string type_b, multiset<int> &b) {
+    return pair<multiset<int>, multiset<int>>();
+}
+
+
+
+
+
+
+
+/*
+ *
+ */
 void PlayerBattle::print_matrices() {
     cout << "printing result matrix" << endl;
     for (auto row = result_matrix.begin(); row != result_matrix.end(); row++) {
@@ -66,3 +78,4 @@ void PlayerBattle::print_matrices() {
         cout << endl;
     }
 }
+

@@ -23,9 +23,11 @@ public:
         delta_A_matrix.resize(N, vector<int>(M));
         delta_B_matrix.resize(N, vector<int>(M));
     }
-    static pair<multiset<int>, multiset<int>> one_battle(string, multiset<int> &, string, multiset<int> &);
+    static pair<multiset<int>, multiset<int>> one_match(string, multiset<int> &, string, multiset<int> &);
     static void add_player(const string&, multiset<int> &, Player *&);
     void fill_result_matrix();
+    static pair<multiset<int>, multiset<int>> full_battle(string, multiset<int> &, string, multiset<int> &);
+
     void print_matrices();
 
     ~PlayerBattle() {

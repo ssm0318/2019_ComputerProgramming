@@ -59,22 +59,6 @@ deque<int> convert_matrix(vector<vector<int>> &delta_matrix) {
     return delta_queue;
 }
 
-void print_queue(deque<int> &dd) {
-    cout << "printing queue" << endl;
-    for (int el : dd) {
-        cout << el << " ";
-    }
-    cout << endl;
-}
-
-void print_vector(vector<int> &dd) {
-    cout << "printing vector" << endl;
-    for (int el : dd) {
-        cout << el << " ";
-    }
-    cout << endl;
-}
-
 int RegretMinimizer::make_decision(vector<vector<int>> &delta_matrix) {
     deque<int> delta_queue = convert_matrix(delta_matrix);
 

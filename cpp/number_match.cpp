@@ -13,7 +13,7 @@ pair<int, int> NumberMatch::virtual_fight(int A, int B) {
 }
 
 // 1-2
-pair<int, int> NumberMatch::one_match(int A, int B) {
+pair<int, int> NumberMatch::one_round(int A, int B) {
     NumberMatch curr_match(A, B);
     curr_match.fill_decision_matrix();
 
