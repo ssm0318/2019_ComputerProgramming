@@ -5,10 +5,13 @@ import datastructure.*;
 import java.util.*;
 
 public class Server {
+    private StorageManager storageManager;
 
     public List<Course> search(Map<String,Object> searchConditions, String sortCriteria){
-        // TODO Problem 2.1.
-        return new ArrayList<>();
+        storageManager = new StorageManager();
+        List<Course> result = storageManager.searchCourses(searchConditions, sortCriteria);
+
+        return result;
     }
 
     public int bid(int courseid, int mileage, String userid){

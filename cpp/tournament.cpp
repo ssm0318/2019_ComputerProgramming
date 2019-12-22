@@ -3,7 +3,7 @@
 deque<tuple<int, string, multiset<int>>> convert_to_queue(vector<pair<string, multiset<int>>> &players) {
     deque<tuple<int, string, multiset<int>>> queue;
     int id = 0;
-    
+
     for (auto el : players) {
         queue.push_back(make_tuple(id++, el.first, el.second));
     }
