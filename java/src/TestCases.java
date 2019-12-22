@@ -15,10 +15,10 @@ import java.util.*;
 public class TestCases {
 
     public static void main(String[] args){
+        resetUserDirs();
         Problem2_1TestCase();
         Problem2_2TestCase();
-        Problem2_3TestCase();
-        resetUserDirs();
+//        Problem2_3TestCase();
     }
     static void printOX(String prompt,boolean condition){
         if(condition){
