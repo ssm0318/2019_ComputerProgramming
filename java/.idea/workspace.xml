@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240c2e2c-d8e2-4668-b713-2e59eea1bdac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cpp/cmake-build-debug/cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/cmake-build-debug/cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp/testcases/1-6/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/testcases/1-6/2.in" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <workItem from="1577007188492" duration="5410000" />
       <workItem from="1577018025106" duration="22786000" />
       <workItem from="1577051817050" duration="3791000" />
-      <workItem from="1577075334718" duration="17112000" />
+      <workItem from="1577075334718" duration="17494000" />
     </task>
     <servers />
   </component>
