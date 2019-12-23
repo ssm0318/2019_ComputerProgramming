@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240c2e2c-d8e2-4668-b713-2e59eea1bdac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../cpp/cmake-build-debug/cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp/cmake-build-debug/cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Users/2010-22221/bid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Users/2010-22221/bid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Users/2012-22221/bid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Users/2012-22221/bid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Users/2019-12344/bid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Users/2019-12344/bid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Users/2019-26633/bid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Users/2019-26633/bid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Users/2019-45677/bid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Users/2019-45677/bid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam/TestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam/datastructure/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam/datastructure/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam/target/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam/target/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam/target/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam/target/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exam/target/StorageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exam/target/StorageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/StorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/target/StorageManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +78,7 @@
       <workItem from="1577007188492" duration="5410000" />
       <workItem from="1577018025106" duration="22786000" />
       <workItem from="1577051817050" duration="3791000" />
-      <workItem from="1577075334718" duration="16114000" />
+      <workItem from="1577075334718" duration="17112000" />
     </task>
     <servers />
   </component>

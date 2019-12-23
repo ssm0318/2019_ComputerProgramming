@@ -21,9 +21,8 @@ public:
         M = B->get_size();
         result_matrix.resize(N , vector<pair<int, int>>(M));
         delta_A_matrix.resize(N, vector<int>(M));
-        delta_B_matrix.resize(N, vector<int>(M));
+        delta_B_matrix.resize(M, vector<int>(N));
     }
-    static int winner_id;
     static pair<multiset<int>, multiset<int>> one_match(string, multiset<int> &, string, multiset<int> &);
     static void add_player(const string&, multiset<int> &, Player *&);
     void fill_result_matrix();
