@@ -34,6 +34,10 @@ public class Storage {
         }
     }
 
+    public void clearUserDB() {
+        users = new HashMap<>();
+    }
+
     private static Course readCourseFile(String collegeName, File file) {
         int id = Integer.parseInt((file.getName().split("\\."))[0]);
         String[] courseInfo = readFileLine(file).split("\\|");
@@ -106,6 +110,9 @@ public class Storage {
             Scanner scanner = new Scanner(bidFile);
             while (scanner.hasNextLine()) {
                 String[] bidInfo = scanner.nextLine().split("\\|");
+                if (bidInfo[0].length() == 0) {
+                    continue;
+                }
                 bidList.add(new Bidding(Integer.parseInt(bidInfo[0]), Integer.parseInt(bidInfo[1])));
             }
             return bidList;

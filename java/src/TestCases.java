@@ -18,7 +18,7 @@ public class TestCases {
         resetUserDirs();
         Problem2_1TestCase();
         Problem2_2TestCase();
-//        Problem2_3TestCase();
+        Problem2_3TestCase();
     }
     static void printOX(String prompt,boolean condition){
         if(condition){
@@ -216,6 +216,7 @@ public class TestCases {
         }else{
             System.out.println("failed confirmation");
         }
+        server = new Server();
         resetUserDirs();
         server.bid(3, 11, "2019-12344");
         server.bid(7, 8, "2019-12344");
