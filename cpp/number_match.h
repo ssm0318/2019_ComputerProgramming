@@ -24,7 +24,7 @@ public:
     void fill_decision_matrix();
     pair<int, int> attack(bool);
     static pair<int, int> process_damage(bool, pair<int, int>, int);
-    pair<int, int> res_choice(int, int);
+    pair<int, int> choice_consequence(int, int);
     int decision_A();
     int decision_B();
 };

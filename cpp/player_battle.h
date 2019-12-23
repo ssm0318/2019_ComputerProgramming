@@ -29,7 +29,7 @@ public:
     static int calculate_sum(multiset<int> &);
     static pair<multiset<int>, multiset<int>> full_battle(string, multiset<int> &, string, multiset<int> &);
 
-    void print_matrices();
+    void print_matrices(); // for debugging only
 
     ~PlayerBattle() {
         delete A;

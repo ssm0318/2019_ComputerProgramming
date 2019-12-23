@@ -12,9 +12,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c4a382b-df12-4f0c-9e61-98481c49f4ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../2014-17831.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../2014-17831.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/number_match.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/number_match.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player_battle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/player_battle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/tournament.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cpp.dir/tournament.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/1-6/2.in" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/1-6/2.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_match.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/number_match.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number_match.h" beforeDir="false" afterPath="$PROJECT_DIR$/number_match.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_battle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_battle.h" beforeDir="false" afterPath="$PROJECT_DIR$/player_battle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/1-6/12.in" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/1-6/12.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tournament.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tournament.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2010-22221/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2010-22221/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2012-22221/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2012-22221/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2018-22233/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2018-22233/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2019-12344/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2019-12344/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2019-26633/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2019-26633/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2019-45211/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2019-45211/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/data/Users/2019-45677/registration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../java/data/Users/2019-45677/registration.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/Exam/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/Exam/TestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/Exam/target/StorageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/Exam/target/StorageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/target/StorageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/target/StorageManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +72,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcases/1-5" />
       <recent name="$PROJECT_DIR$/testcases/1-3" />
     </key>
   </component>
@@ -86,6 +114,12 @@
       <workItem from="1576926834876" duration="27678000" />
       <workItem from="1576960189408" duration="1490000" />
       <workItem from="1577094312998" duration="4305000" />
+      <workItem from="1577098833722" duration="843000" />
+      <workItem from="1577101472241" duration="947000" />
+      <workItem from="1577102425253" duration="66000" />
+      <workItem from="1577106097251" duration="97000" />
+      <workItem from="1577106595272" duration="1626000" />
+      <workItem from="1577112956995" duration="237000" />
     </task>
     <servers />
   </component>
@@ -101,28 +135,28 @@
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="725" y="328" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577095164604" />
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom" timestamp="1577098794576">
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom" timestamp="1577113194485">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577098794576" />
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577113194485" />
     <state width="1878" height="289" key="GridCell.Tab.0.bottom/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464133" />
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576719520641" />
-    <state width="1878" height="268" key="GridCell.Tab.0.center" timestamp="1577098794576">
+    <state width="1878" height="385" key="GridCell.Tab.0.center" timestamp="1577113194484">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577098794576" />
+    <state width="1878" height="385" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577113194484" />
     <state width="1878" height="289" key="GridCell.Tab.0.center/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464132" />
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1576719520640" />
-    <state width="1878" height="268" key="GridCell.Tab.0.left" timestamp="1577098794575">
+    <state width="1878" height="385" key="GridCell.Tab.0.left" timestamp="1577113194483">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577098794575" />
+    <state width="1878" height="385" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577113194483" />
     <state width="1878" height="289" key="GridCell.Tab.0.left/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464132" />
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1576719520640" />
-    <state width="1878" height="268" key="GridCell.Tab.0.right" timestamp="1577098794576">
+    <state width="1878" height="385" key="GridCell.Tab.0.right" timestamp="1577113194485">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="268" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577098794576" />
+    <state width="1878" height="385" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1920.990@0.23.1920.990" timestamp="1577113194485" />
     <state width="1878" height="289" key="GridCell.Tab.0.right/-261.-1057.1920.1057/0.23.1440.877@-261.-1057.1920.1057" timestamp="1576726464133" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576719520641" />
     <state x="662" y="125" key="SettingsEditor" timestamp="1576814485482">

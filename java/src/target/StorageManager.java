@@ -31,7 +31,7 @@ public class StorageManager {
     }
 
     private void loadUsers() {
-        File directory = new File(StorageManager.USER_BACKUP_DIRECTORY_PATH);
+        File directory = new File(StorageManager.USER_DIRECTORY_PATH);
         File[] userDirectories = directory.listFiles();
 
         storage.clearUserDB();

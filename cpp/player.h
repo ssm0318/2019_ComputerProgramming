@@ -21,7 +21,6 @@ public:
 
 class GainMaximizer : public Player {
 private:
-    static string type;
     multiset<int> numbers;
 
 public:
@@ -36,7 +35,6 @@ public:
 
 class LossMinimizer : public Player {
 private:
-    static string type;
     multiset<int> numbers;
 
 public:
@@ -50,7 +48,6 @@ public:
 
 class RegretMinimizer : public Player {
 private:
-    static string type;
     multiset<int> numbers;
 
 public:

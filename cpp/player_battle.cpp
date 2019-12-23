@@ -6,7 +6,7 @@ pair<multiset<int>, multiset<int>> PlayerBattle::one_match(string type_a, multis
 
     curr_round.index_choice_A = curr_round.A->make_decision(curr_round.delta_A_matrix);
     curr_round.index_choice_B = curr_round.B->make_decision(curr_round.delta_B_matrix);
-
+    
     int num_A = *next(curr_round.A->get_numbers().begin(), curr_round.index_choice_A);
     int num_B = *next(curr_round.B->get_numbers().begin(), curr_round.index_choice_B);
 
@@ -30,6 +30,7 @@ void PlayerBattle::add_player(const string& player_type, multiset<int> &numbers,
 
 void PlayerBattle::fill_result_matrix() {
     auto itrA = A->get_numbers().begin();
+
     for (int i = 0; i < N; ++i, ++itrA) {
         auto itrB = B->get_numbers().begin();
         for (int j = 0; j < M; ++j, ++itrB) {
@@ -45,8 +46,10 @@ int PlayerBattle::calculate_sum(multiset<int> &numbers) {
 }
 
 pair<multiset<int>, multiset<int>> PlayerBattle::full_battle(string type_a, multiset<int> &a, string type_b, multiset<int> &b) {
-    int init_sum_A = calculate_sum(a), init_sum_B = calculate_sum(b), change_A = 1, change_B = 1, updated_sum_A, updated_sum_B;
+    int init_sum_A = calculate_sum(a), init_sum_B = calculate_sum(b);
+    int change_A = 1, change_B = 1, updated_sum_A, updated_sum_B;
     pair<multiset<int>, multiset<int>> result;
+
     while (change_A || change_B) {
         result = one_match(type_a, a, type_b, b);
         updated_sum_A = calculate_sum(result.first);
@@ -61,14 +64,6 @@ pair<multiset<int>, multiset<int>> PlayerBattle::full_battle(string type_a, mult
 }
 
 
-
-
-
-
-
-/*
- *
- */
 void PlayerBattle::print_matrices() {
     cout << "printing result matrix" << endl;
     for (auto row = result_matrix.begin(); row != result_matrix.end(); row++) {

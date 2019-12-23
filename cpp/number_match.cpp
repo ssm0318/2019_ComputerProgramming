@@ -21,12 +21,12 @@ pair<int, int> NumberMatch::one_round(int A, int B) {
 void NumberMatch::fill_decision_matrix() {
     for (int i = 0; i < MATRIX_SIZE; ++i) {
         for (int j = 0; j < MATRIX_SIZE; ++j) {
-            decision_matrix[i][j] = res_choice(i, j);
+            decision_matrix[i][j] = choice_consequence(i, j);
         }
     }
 }
 
-pair<int, int> NumberMatch::res_choice(int choice_A, int choice_B) {
+pair<int, int> NumberMatch::choice_consequence(int choice_A, int choice_B) {
     if (choice_A == FIGHT && choice_B == FIGHT) {
         return virtual_fight(curr_num.first, curr_num.second);
     } else if (choice_A != FIGHT && choice_B != FIGHT) {
@@ -60,6 +60,7 @@ pair<int, int> NumberMatch::process_damage(bool has_seven, pair<int, int> number
     return make_pair(A, B);
 }
 
+// returns 0 if FIGHT, 1 if FLIGHT
 int NumberMatch::decision_A() {
     bool when_B_fights = decision_matrix[0][0].first >= decision_matrix[1][0].first == FIGHT;
     bool when_B_flights = decision_matrix[0][1].first >= decision_matrix[1][1].first == FIGHT;
@@ -67,6 +68,7 @@ int NumberMatch::decision_A() {
     return when_B_fights == when_B_flights ? when_B_fights : curr_num.first >= curr_num.second;
 }
 
+// returns 0 if FIGHT, 1 if FLIGHT
 int NumberMatch::decision_B() {
     bool when_A_fights = decision_matrix[0][0].second >= decision_matrix[0][1].second == FIGHT;
     bool when_A_flights = decision_matrix[1][0].second >= decision_matrix[1][1].second == FIGHT;

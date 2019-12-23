@@ -17,8 +17,8 @@ int Tournament::tournament_winner(deque<tuple<int, string, multiset<int>>> &play
         players_queue.pop_front();
         auto B = players_queue.front();
         players_queue.pop_front();
-        if (get<0>(B) < get<0>(A)) { // handling last player in case num players is odd
-            players_queue.push_back(A);
+        if (get<0>(B) < get<0>(A)) {
+            players_queue.push_back(A); // last player to next round if num players is odd
             continue;
         }
         auto res = PlayerBattle::full_battle(get<1>(A), get<2>(A), get<1>(B), get<2>(B));
@@ -46,6 +46,5 @@ int Tournament::find_steady_winner(vector<pair<string, multiset<int>>> &players)
         tournament_queue.pop_front();
         tournament_queue.push_back(temp_player);
     }
-
     return distance(count_wins.begin(), max_element(count_wins.begin(), count_wins.end()));
 }

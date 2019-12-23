@@ -30,7 +30,6 @@ int steady_winner(vector<pair<string, multiset<int>>> players) {
     return Tournament::find_steady_winner(players);
 }
 
-/* =======END OF TODOs======= */
 
 /* =======START OF THE MAIN CODE======= */
 /* Please do not modify the code below */

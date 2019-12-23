@@ -216,8 +216,8 @@ public class TestCases {
         }else{
             System.out.println("failed confirmation");
         }
-        server = new Server();
         resetUserDirs();
+        server = new Server();
         server.bid(3, 11, "2019-12344");
         server.bid(7, 8, "2019-12344");
         server.bid(8, 8, "2019-12344");

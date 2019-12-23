@@ -1,9 +1,5 @@
 #include "player.h"
 
-string GainMaximizer::type = MAXIMIZE_GAIN;
-string LossMinimizer::type = MINIMIZE_LOSS;
-string RegretMinimizer::type = MINIMIZE_REGRET;
-
 int GainMaximizer::get_size() { return numbers.size(); }
 int LossMinimizer::get_size() { return numbers.size(); }
 int RegretMinimizer::get_size() { return numbers.size(); }
